@@ -99,15 +99,6 @@ p {
   text-justify: inter-word;
 
 }
-/* Style the registration link */
-marquee a {
-  text-decoration: none;
-  color: #f7bea9;
-  font-weight: bold;
-  font-size: 25px;
-
-}
-
 iframe {
   position: absolute; 
   top: 177%; 
