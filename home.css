@@ -1,0 +1,129 @@
+body {
+  background-image: url(back.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+div {
+  width: 100%;
+  height: 105px;
+  background-color: #282828;
+}    
+/* Add a black background color to the top navigation */
+.tab {
+  background-color: #282828;
+  overflow: hidden;
+  position: absolute;
+  right: 0%;
+  top: 0%;
+}
+/* Style the links inside the navigation bar */
+.tab a {
+  float: right;
+  color: #f2f2f2;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 14px 16px;;
+}
+
+/* Add a black background color to the top navigation */
+.tap {
+  background-color: #282828;
+  overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.tap a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.tap a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.tap a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/* Style the header containing the university name */
+#top {
+  font-size: 30px;
+  position: absolute;
+  top: 0px;
+  left: 3.5%;
+  font-family: Bodoni MT;
+  color: #faf8f1;
+}
+#pf {
+  height:35px;
+  width:35px;
+  border-radius: 50%;
+  position: absolute;
+  top: 16%;
+  right: 44%;
+}
+span {
+  color: #faf8f1cd;
+  font-size: 38px;
+}
+#pfp {
+  height:100px;
+  width:100px;
+  position: absolute;
+  top: 7%;
+  left: 2%;
+}
+/* Style the subheadings */
+h2 {
+  font-size: 41px;
+  margin: 20px ;
+  text-align: center;
+  color: #faf8f1;
+  text-shadow: 3px 2px #282828;
+}
+/* Style the navigation links */
+p {
+  height: 500px;
+  width: 600px;
+  margin: 10px;
+  font-size: 26px;
+  color: #ffffff;
+  padding-left: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+/* Style the registration link */
+marquee a {
+  text-decoration: none;
+  color: #f7bea9;
+  font-weight: bold;
+  font-size: 25px;
+
+}
+
+iframe {
+  position: absolute; 
+  top: 177%; 
+  left: 4%; 
+  height: 380px; 
+  width: 600px;
+}
+#last {
+  width: 100%;
+  height: 15%;
+  display: block;
+  color: #fbf4cf;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 30px;
+  background-color: #282828;
+  position: absolute;
+  bottom: -155%;
+}
