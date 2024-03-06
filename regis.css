@@ -55,7 +55,7 @@ div {
             -webkit-transform: rotate(45deg);
             position: absolute;
             right:1%;
-            top: 100%;
+            top: 90%;
             transform: rotate(45deg);
         }  
         
@@ -100,7 +100,7 @@ div {
                 -webkit-transform: rotate(-135deg);
                 position: absolute;
                 right:1%;
-                bottom: -115%;
+                bottom: -105%;
                 transform: rotate(-135deg);
             }
 
