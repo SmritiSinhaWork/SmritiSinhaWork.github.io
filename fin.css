@@ -1,13 +1,16 @@
 *{
     background-color: rgb(199, 235, 235);
-    text-align: center;
 }
 h1{
     color: blue;
+    text-align: center;
 }
-h3{
+h3, pre{
     color: rgb(39, 39, 123);
+    text-align: center;
 }
-pre,a{
-    color: rgb(255, 21, 0);
+marquee{
+    text-decoration: none;
+    color: rgba(242, 108, 94, 0.868);
+    font-family: 'Times New Roman', Times, serif;
 }
