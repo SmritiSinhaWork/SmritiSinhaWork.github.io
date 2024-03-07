@@ -23,7 +23,7 @@ header {
             }
 
     h1 {
-        color: black;
+        color: brown;
         text-align: center;
     }
     h4 {
@@ -35,52 +35,44 @@ header {
 div {
     form{
         font-size: 25px;
-    } 
-         #per {
-            margin: auto;
-            padding: 10px;
-            width: 50%;
-            height: 507px;
-            border: 2px solid black;
-            background-color: transparent;
-            box-shadow: 5px 5px 5px #5e5a5a;    
-        }
-        .split {
-            height: 100%;
-            width: 50%;
-            position: absolute;
-            z-index: 1;
-            top: 0;
-            overflow-x: hidden;
-            padding-top: 10rem;
-        }
-        .left {
-            left: 12rem;
-
-        }
-
-        .right {
-            right: 12rem;
-
-        }
-        .centered {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: left;
-        }
-        .centered input {
-            height: 40px;
-            width: 100%;
-        }
-        .gender {
-            text-align: center;
-            margin: auto;
-            width: 50%;
-            position: absolute;
-            top: 40rem;
-        }
+    }
+    .personal{
+        margin: 2px auto;
+        padding: 0rem 2rem 2rem 2rem;
+        border:2px solid black;
+        height: 25rem;
+        width: 50%;
+        box-shadow: 5px 5px 5px #5e5a5a; 
+    }
+    p {
+        text-align: center;
+    }
+    .personal input{
+        height: 2rem;
+        width:100%;
+    }
+    .personal input[type=radio] {
+        height: 20px;
+        width: 45px;
+    }
+    .gender {
+        text-align: center;
+        padding-top: 18rem;
+    }
+    .left{
+        padding: 0rem 1rem 1rem 1rem;
+        width: 20%;
+        position: absolute;
+        display: inline;
+        right: 50%;
+    }
+    .right{
+        padding: 0rem 1rem 1rem 1rem;
+        width: 20%;
+        position: absolute;
+        display: inline;
+        left: 50%;
+    }
         .arroww {
             display: inline-block;
             padding: 16px;
@@ -91,40 +83,63 @@ div {
             -webkit-transform: rotate(45deg);
             position: absolute;
             right:1%;
-            top: 90%;
             transform: rotate(45deg);
         }  
-      #Academic {
-            margin: auto;
-            padding: 10px;
+        .academic {
+            margin: 2px auto;
+            padding: 0rem 2rem 2rem 2rem;
+            border:2px solid black;
+            height: 25rem;
             width: 50%;
-            height: 555px;
-            border: 2px solid black;
-            background-color: transparent;
             box-shadow: 5px 5px 5px #5e5a5a; 
         }
-            select {
-                font-size: 26px;
-                font-family: "Times";
-                height: 45px;
-                width: 45%;
-            }
-            .large-file-input {
-                font-size: 25px;
-                font-family: 'Times';
-            }
-            button{
-                height: 80px;
-                width: 98.5%;
-                border: 2px solid #04AA6D;
-                background-color: #04AA6D;
-            }
-            button a{
-                font-size: 40px;
-                font-family: 'Times New Roman', Times, serif; 
-                color: #eaedd7;
-                text-decoration: none;
-            }
+        .academic input{
+            height: 2rem;
+            width:100%;
+        }
+        .academic select {
+            font-family: 'Times';
+            font-size: 1rem;
+            height: 3rem;
+            width: 17rem;
+        }
+        .leftside{
+            padding: 0rem 1rem 1rem 1rem;
+            width: 20%;
+            position: absolute;
+            display: inline;
+            right: 50%;
+        }
+        .rightside{
+            padding: 0rem 1rem 1rem 1rem;
+            width: 20%;
+            position: absolute;
+            display: inline;
+            left: 50%;
+        }
+        .large-file-input {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 76%;
+            padding-top: 2%;
+        }
+        .submit {
+            text-align: center;
+            padding-top: 18rem;
+        }
+        .submit button {
+            padding-left: 1rem;
+            height: 3rem;
+            width: 35rem;
+            background-color: #04AA6D;
+            border-radius: 5rem;
+            border: none;
+        }
+        .submit a{
+            text-decoration: none;
+            font-size: 2rem;
+            color: antiquewhite;
+            font-family: 'Times New Roman', Times, serif;
+        }
             .arrow {
                 display: inline-block;
                 padding: 16px;
@@ -135,25 +150,14 @@ div {
                 -webkit-transform: rotate(-135deg);
                 position: absolute;
                 right:1%;
-                bottom: -105%;
                 transform: rotate(-135deg);
             }
-
-        div input {
-            height: 40px;
-            width: 45%;
-        }
-        div input[type=radio] {
-            height: 20px;
-            width: 45px;
-        }
 }
 footer {
     background-color: aquamarine;
     color:#333;
     width: 100%;
 
-}
     p{
         padding-top: 1%;
         font-size: 26px;
@@ -163,3 +167,4 @@ footer {
         font-size: large;
         font-family: 'Times New Roman', Times, serif;
     }
+}
