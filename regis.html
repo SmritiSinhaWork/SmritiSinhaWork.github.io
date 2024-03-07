@@ -20,40 +20,42 @@
     </header>
     <div>
         <form action="get">
-            <div id="per">
-                <p><b><u>Personal Details</u></b></p><br>
-                <div class="split left">
-                    <div class="centered">
-                        First name:<br><input type="text" maxlength="20"><br><br>
-                        Email Address:<input type="email" maxlength="25"><br><br>
-                        Country:<input type="text" maxlength="15">
-                    </div>
+            <div class="personal">
+                <p><u><b>Personal details</u></b></p>
+                <div class="left">
+                    First name:<br><input type="text" maxlength="15"><br><br>
+                    Email ID:<br><input type="email" maxlength="20"><br><br>
+                    Country:<br><input type="text" maxlength="15"><br>
                 </div>
-                <div class="split right">
-                    <div class="centered">
-                        Last name:<input type="text" maxlength="20"><br><br>
-                        Contact no.:<input type="number" maxlength="10"><br><br>
-                        State:<input type="text" maxlength="15">
-                    </div>
+                <div class="right">
+                    Last name:<br><input type="text" maxlength="15"><br><br>
+                    Contact no.:<br><input type="number" maxlength="10"><br><br>
+                    State:<br><input type="text" maxlength="15"><br>
                 </div>
                 <div class="gender">
-                    Select Gender:
-                    <input type="radio" name="male">Male
-                    <input type="radio" name="female">Female
-                    <input type="radio" name="other">Other
+                    Select gender:
+                        <input type="radio" name="Gender" value="male"><label for="male">Male</label>
+                        <input type="radio" name="Gender" value="female"><label for="female">Female</label>
+                        <input type="radio" name="Gender" value="other"><label for="other">Other</label>
+                        <a href="#Degree"><i class="arroww down"></i></a>
                 </div>
-                <a href="#"><i class="arroww down"></i></a>
-            </div><br><br><br>
-            <div id="Academic">
-                <p><b><u>Academic Details</u></b></p><br>
-                <label for="Degree">Last qualifying course:</label>
+            </div>
+            <br><br><br>
+            <div class="academic">
+                <p><u><b>Academic details</u></b></p>
+                <div class="leftside">
+                    <label for="Degree">Last qualifying course:</label>
                     <select name="Degree" id="Degree">
                         <option value="10th">Class 10</option>
                         <option value="12th">Class 12</option>
                         <option value="UG">Under Graduate</option>
                         <option value="PG">Post Graduate</option>
                     </select><br><br>
-                <label for="Courses">Select Course/ Stream:</label>
+                    Total marks:<input type="number" maxlength="5"><br><br>
+                    Board name:<br><input type="text" maxlength="10">
+                </div>
+                <div class="rightside">
+                    <label for="Courses">Select Course/ Stream:</label>
                     <select name="Courses" id="Courses">
                         <option value="Nill">NILL</option>
                         <option value="science">Science</option>
@@ -75,14 +77,14 @@
                         <option value="MHA">MHA</option>
                         <option value="MCA">MCA</option>
                     </select><br><br>
-                Total marks:<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                Obtained marks:<input type="number" maxlength="10"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><input type="number" maxlength="10"><br><br>
-                Board:<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                <label for="myfile">Upload Photo:</label><br>
-                <input type="text" name="Board"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                <input type="file" id="myfile" name="myfile" class="large-file-input"><br><br>
-                <button><a href="fin.html">Submit</a></button>
-                <a href="#arr"><i class="arrow up"></i></a>
+                    Obtained marks:<input type="number" maxlength="10"><br><br>
+                    <label for="myfile">Upload Photo:</label><br>
+                    <input type="file" id="myfile" name="myfile" class="large-file-input"><br><br>
+                </div>
+                <div class="submit">
+                    <button><a href="fin.html">Submit</a></button>
+                    <a href="#arr"><i class="arrow up"></i></a>
+                </div>
             </div>
         </form>
     </div>
