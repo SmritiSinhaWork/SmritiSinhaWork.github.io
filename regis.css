@@ -99,9 +99,9 @@ div {
         }
         .academic select {
             font-family: 'Times';
-            font-size: 1rem;
-            height: 3rem;
-            width: 17rem;
+            font-size: 1.5rem;
+            height: 2.5rem;
+            width: 100%;
         }
         .leftside{
             padding: 0rem 1rem 1rem 1rem;
