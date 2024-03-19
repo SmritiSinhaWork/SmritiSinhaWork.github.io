@@ -1,4 +1,4 @@
 # University website
 
 Website using HTML and CSS
-URL: https://smritisinhawork.github.io/
+URL: https://smritisinhawork.github.io/University-website/
